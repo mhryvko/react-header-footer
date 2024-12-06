@@ -1,0 +1,109 @@
+.next-header {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.next-header-container {
+  display: flex;
+  flex-direction: column;
+  width: 1366px;
+}
+
+.next-header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.next-header-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.next-logo {
+  font-size: 24px;
+}
+
+.next-search-bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 36px;
+}
+
+.next-search-bar input {
+  padding: 5px 10px;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  line-height: 36px;
+}
+
+.next-search-bar .next-search-btn {
+  padding: 5px 10px;
+  background: #fff;
+  border: none;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.next-header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.next-checkout-btn {
+  background: lightgreen;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.next-flag {
+  font-size: 1.5rem;
+}
+
+.next-nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding-top: 10px;
+  border-top: 1px solid #444;
+  margin-top: 10px;
+}
+
+.next-nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.next-nav-links .next-clearance {
+  color: red;
+  font-weight: bold;
+}
+
+.account {
+  font-size: 12px;
+}
+
+.flag {
+  height: 24px;
+}
